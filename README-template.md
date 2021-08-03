@@ -5,14 +5,14 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -69,12 +69,12 @@ To see how you can add code snippets, see below:
 ```
 ```css
 .proud-of-this-css {
-  color: papayawhip;
+    color: papayawhip;
 }
 ```
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉')
+    console.log('🎉')
 }
 ```
 
