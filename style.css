@@ -57,7 +57,7 @@ h2 {
     }
 
     .container {
-        width: clamp(200px, 90%, 400);
+        width: clamp(200px, 90%, 400px);
         margin: 0 auto;
         background: var(--card-bg);
         display: flex;
