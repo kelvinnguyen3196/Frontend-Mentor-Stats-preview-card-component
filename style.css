@@ -52,7 +52,8 @@ h2 {
 /* Mobile */
 @media only screen and (max-width: 600px) {
     body {
-        padding: 5rem 0rem;
+        padding: 5rem 0 2rem 0;
+        margin: 0px;
     }
 
     .container {
@@ -69,8 +70,34 @@ h2 {
         padding: 1rem 1.5rem;
     }
 
+    .left h1 {
+        font-size: 1.8rem;
+    }
+
+    .left p {
+        font-size: var(--body-font-size);
+    }
+
     .right img {
         width: 100%;
         height: auto;
+        background-color: purple;
+    }
+
+    .card h2 {
+        margin-bottom: 0px;
+    }
+
+    .card p {
+        margin-top: 0px;
+        font-size: 0.9rem;
+    }
+
+    .cards {
+        margin-top: 2.5rem;
+    }
+
+    .attribution {
+        margin-top: 3rem;
     }
 }
