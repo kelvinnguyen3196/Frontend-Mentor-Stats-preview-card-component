@@ -14,3 +14,35 @@
     --font: 'Inter', sans-serif;
     --font-2: 'Lexend Deca', sans-serif;
 }
+/* Universal */
+body {
+    background: var(--main-bg);
+}
+
+h1 {
+    color: var(--main-heading);
+    font-family: var(--font);
+}
+
+span {
+    color: var(--accent);
+}
+
+.left p {
+    color: var(--main-paragraph);
+    font-family: var(--font-2);
+}
+
+h2 {
+    color: var(--main-heading);
+    font-family: var(--font);
+}
+
+.card p {
+    color: var(--stat-heading);
+    font-family: var(--font);
+}
+
+.left {
+    text-align: center;
+}
