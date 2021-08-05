@@ -15,6 +15,9 @@
     --font-2: 'Lexend Deca', sans-serif;
 }
 /* Universal */
+* {
+    box-sizing: border-box;
+}
 body {
     background: var(--main-bg);
 }
@@ -45,4 +48,29 @@ h2 {
 
 .left {
     text-align: center;
+}
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 5rem 0rem;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        background: var(--card-bg);
+        display: flex;
+        flex-direction: column-reverse;
+        border-radius: 0.6rem;
+        overflow: hidden;
+    }
+
+    .left {
+        padding: 1rem 1.5rem;
+    }
+
+    .right img {
+        width: 100%;
+        height: auto;
+    }
 }
