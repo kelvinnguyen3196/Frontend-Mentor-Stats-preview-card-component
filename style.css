@@ -50,7 +50,7 @@ h2 {
     text-align: center;
 }
 /* Mobile */
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1440px) {
     body {
         padding: 3rem 0 2rem 0;
         margin: 0px;
@@ -80,8 +80,23 @@ h2 {
 
     .right img {
         width: 100%;
-        height: auto;
-        background-color: purple;
+        display: block;
+        filter: brightness(1.2);
+    }
+
+    .right {
+        position: relative;
+    }
+
+    .right .overlay {
+        position: absolute;
+        background-color: var(--accent);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.5;
+        filter: brightness(0.2) saturate(7);
     }
 
     .card h2 {
@@ -102,7 +117,7 @@ h2 {
     }
 }
 /* Desktop */
-@media only screen and (min-width: 1301px) {
+@media only screen and (min-width: 1441px) {
     .desktop-wrapper {
         position: absolute;
         top: 50%;
@@ -156,6 +171,8 @@ h2 {
 
     .right img {
         height: 100%;
+        display: block;
+        filter: brightness(1.2);
     }
 
     .right {
@@ -169,8 +186,8 @@ h2 {
         left: 0;
         right: 0;
         bottom: 0;
-        opacity: 0.4;
-        filter: brightness(0.3) saturate(10);
+        opacity: 0.5;
+        filter: brightness(0.2) saturate(7);
     }
 
     .attribution {
