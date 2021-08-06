@@ -158,6 +158,21 @@ h2 {
         height: 100%;
     }
 
+    .right {
+        position: relative;
+    }
+
+    .right .overlay {
+        position: absolute;
+        background-color: var(--accent);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.4;
+        filter: brightness(0.3) saturate(10);
+    }
+
     .attribution {
         margin-top: 2rem;
     }
